@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trending Crypto</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <!-- <button class="button-34" role="button">Dashboard</button> -->
+        <a href="dashboard.html" class="button-34">Dashboard</a>
+      </div>
+      <div class="listProduct"></div>
+    </div>
+
+    <script>
+      //Important note: If you have downloaded the code
+      // but still encounter errors when running the program,
+      //    please watch the video at this link because
+      // I have shown you how to run the project properly.
+      // https://www.youtube.com/watch?v=okyfcpZfPAU&t=142s
+      let products = null;
+      // get datas from file json
+      fetch("products.json")
+        .then((response) => response.json())
+        .then((data) => {
+          products = data;
+          addDataToHTML();
+        });
+
+      function addDataToHTML() {
+        // remove datas default from HTML
+        let listProductHTML = document.querySelector(".listProduct");
+
+        // add new datas
+        if (products != null) {
+          // if has data
+          products.forEach((product) => {
+            let newProduct = document.createElement("a");
+            newProduct.href = "/detail.html?id=" + product.id;
+            newProduct.classList.add("item");
+            newProduct.innerHTML = `<img src="${product.image}" alt="">
+                <h2>${product.name}</h2>
+                <div class="price">$${product.price}</div>`;
+            listProductHTML.appendChild(newProduct);
+          });
+        }
+      }
+    </script>
+  </body>
+</html>

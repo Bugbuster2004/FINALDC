@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "ETHIRIUM",
+    "price": 2233.54,
+    "image": "assets/1.png",
+    "description": "Ethereum, often stylized as 'ETH,' is a decentralized platform that enables the creation and execution of smart contracts and decentralized applications (DApps). It is a prominent cryptocurrency and blockchain technology that facilitates various decentralized services."
+  },
+  {
+    "id": 2,
+    "name": "BITCOIN",
+    "price": 40030,
+    "image": "assets/2.png",
+    "description": "Bitcoin (BTC) is the first and most well-known cryptocurrency. It operates on a decentralized peer-to-peer network, allowing for secure and transparent transactions without the need for a central authority. Bitcoin is often referred to as digital gold and is widely used as a store of value."
+  },
+  {
+    "id": 3,
+    "name": "SOLANA",
+    "price": 86.51,
+    "image": "assets/3.png",
+    "description": "Solana (SOL) is a high-performance blockchain platform known for its fast transaction speeds and low fees. It aims to provide scalable and decentralized solutions for developers to build applications and projects on the blockchain."
+  },
+  {
+    "id": 4,
+    "name": "CARDONA",
+    "price": 0.47462,
+    "image": "assets/4.png",
+    "description": "Cardano (ADA) is a blockchain platform that aims to provide a more secure and sustainable infrastructure for the development of decentralized applications and smart contracts. It emphasizes a research-driven approach to achieve scalability, sustainability, and interoperability."
+  },
+  {
+    "id": 5,
+    "name": "LD05 XRP",
+    "price": 16.01,
+    "image": "assets/5.png",
+    "description": "XRP is the native cryptocurrency of the Ripple network. It is designed for fast and cost-efficient cross-border transactions. XRP is used as a bridge currency in the Ripple network, enabling seamless transfers of value across different fiat currencies."
+  },
+  {
+    "id": 6,
+    "name": "LD06 MATIC",
+    "price": 1.25,
+    "image": "assets/6.png",
+    "description": "Polygon (MATIC) is a layer 2 scaling solution for Ethereum. It aims to enhance the scalability of the Ethereum network by providing faster and cheaper transactions. Polygon facilitates the development of decentralized applications with improved user experiences."
+  },
+  {
+    "id": 7,
+    "name": "BINANCE",
+    "price": 200,
+    "image": "assets/7.png",
+    "description": "Binance Coin (BNB) is the native cryptocurrency of the Binance exchange. Initially created as an ERC-20 token on the Ethereum blockchain, BNB later migrated to Binance's native blockchain. It is used for various purposes within the Binance ecosystem, including trading fee discounts."
+  },
+  {
+    "id": 8,
+    "name": "DOGECOIN",
+    "price": 0.079343,
+    "image": "assets/8.png",
+    "description": "Dogecoin (DOGE) started as a meme cryptocurrency but gained popularity for its active community and lighthearted approach. It has a Shiba Inu dog as its mascot and is often used for tipping and charitable contributions. Dogecoin has become known for its friendly and inclusive community."
+  }
+]
