@@ -2,6 +2,10 @@
 
 Welcome to the CoinVista project! This project is a collaborative effort by Yash singh and Siddhant Bansal to create a web application that displays cryptocurrency prices and allows users to buy coins by clicking on them. Additionally, the project includes a user dashboard to view coin rates.
 
+##NOTE
+
+-** we suggest you to clone the repo first then run it in your local enviroment for better user experince there might issues in between pages due to github glitch
+
 ## Features
 
 - **Cryptocurrency Price Display:** The application fetches real-time cryptocurrency prices using the CoinGecko API and displays them in an easy-to-read format.
