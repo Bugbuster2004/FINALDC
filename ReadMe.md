@@ -37,8 +37,8 @@ Open the `index.html` file in your preferred web browser to view the Crypto Pric
 
 ## Contributors
 
-- **Yash**
-- **Suddhant Bansal**
+- **Yash singh**
+- **Siddhant Bansal**
 
 ## Acknowledgments
 
