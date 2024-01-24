@@ -39,7 +39,7 @@
           // if has data
           products.forEach((product) => {
             let newProduct = document.createElement("a");
-            newProduct.href = "/FINALDC/detail.html?id=" + product.id;
+            newProduct.href = "FINALDC/detail.html?id=" + product.id;
             newProduct.classList.add("item");
             newProduct.innerHTML = `<img src="${product.image}" alt="">
                 <h2>${product.name}</h2>
